@@ -16,6 +16,7 @@ public class Main extends Application {
 			Scene scene = new Scene(root,400,400);
 			root.getChildren().add(new Label("Mahira's label"));
 			root.getChildren().add(new Label("Mahira's branch"));
+			root.getChildren().add(new Label("Hello"));
 			// scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
