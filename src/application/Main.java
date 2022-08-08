@@ -18,7 +18,6 @@ public class Main extends Application {
 			root.getChildren().add(new Label("Fairooz's branch"));		
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Fairooz's Project");
-
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
