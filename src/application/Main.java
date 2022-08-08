@@ -14,11 +14,17 @@ public class Main extends Application {
 		try {
 			VBox root = new VBox();
 			Scene scene = new Scene(root,400,400);
+
 			root.getChildren().add(new Label("Mahira's label"));
 			root.getChildren().add(new Label("Mahira's branch"));
 			primaryStage.setTitle("Fairooz's Project");
 			// scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+
+			root.getChildren().add(new Label("Fairooz's label"));
+			root.getChildren().add(new Label("Fairooz's branch"));		
+
 			primaryStage.setScene(scene);
+			primaryStage.setTitle("Fairooz's Project");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
