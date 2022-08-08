@@ -17,6 +17,7 @@ public class Main extends Application {
 			root.getChildren().add(new Label("Mahira's label"));
 			// scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
+			primaryStage.setTitle("Fairooz's Project");
 			primaryStage.show();
 		} catch(Exception e) {
 			e.printStackTrace();
